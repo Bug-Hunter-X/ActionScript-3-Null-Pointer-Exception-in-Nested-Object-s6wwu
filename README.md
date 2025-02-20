@@ -1,0 +1,3 @@
+# ActionScript 3 Null Pointer Exception
+
+This repository demonstrates a common yet subtle error in ActionScript 3: a null pointer exception caused by unexpected null propagation within nested objects.  The `bug.as` file contains the erroneous code, which fails when `myObject` or its nested properties are null. The solution, provided in `bugSolution.as`, adds comprehensive null checks to prevent the exception.
